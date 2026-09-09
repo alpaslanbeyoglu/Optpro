@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  
+  /* Hide non-printable elements */
+  #main-header,
+  footer,
+  #prescription-input-card,
+  #frame-selector-card,
+  #index-comparison-section,
+  #lens-2d-cross-section,
+  #lens-3d-viewer,
+  #overhang-visualizer-card,
+  .print\\:hidden {
+    display: none !important;
+  }
+
+  /* Ensure print modal fills page cleanly */
+  #print-report-modal {
+    position: static !important;
+    background: transparent !important;
+    padding: 0 !important;
+  }
+
+  #print-report-modal > div {
+    max-width: 100% !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+
+  #printable-content {
+    padding: 0 !important;
+  }
+}

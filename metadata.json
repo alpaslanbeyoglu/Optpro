@@ -1,0 +1,6 @@
+{
+  "name": "Optik Cam Kalınlığı Simülatörü",
+  "description": "Optisyenler için reçeteye, ekartmana ve kırılma indeksine göre gözlük camı kalınlıklarını hesaplayan ve müşterilere 2D/3D kesitlerle gösteren profesyonel simülatör.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
